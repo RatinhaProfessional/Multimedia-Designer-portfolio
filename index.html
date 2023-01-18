@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratinha - Multimedia Designer</title>
+
+    <script src="assets/js/script.js" defer> </script>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body class="noScroll">
+
+    <main>
+
+        <!-- code referenced from: "https://youtu.be/z1ES-oz4SbM" -->
+        <div class="svgStatic">
+            
+            <svg>
+                <filter id="static">
+                    <feTurbulence id="turbulence">
+                        <animate attributeName="baseFrequency" dur="50s" values="0.9 0.9; 0.8 0.8; 0.9 0.9;" repeatCount="indefinite"></animate>
+                    </feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" scale="60" ></feDisplacementMap>
+                </filter>
+            </svg>
+
+        </div> 
+
+
+        <header>
+
+            <nav>
+
+                <a href="index.html" class="navLogo"><p>R.</p></a> 
+                <div></div>
+
+                <a href="index.html" class="navLink"><p><div class="navNumbers">01. </div>Home</p></a>
+                <a href="projects.html" class="navLink"><p><div class="navNumbers">02. </div>Projects</p></a>
+                <a href="about.html" class="navLink"><p><div class="navNumbers">03. </div>About me</p></a>
+                    
+            </nav>
+
+        </header>
+
+
+        <section class="sectionPadding">
+
+            <h2 class="h2-orange">Monika Szczurek</h2>
+
+            <h1 class="glitch" style="--stacks: 3;">
+                <span style="--index: 0;">Multimedia <br> <div style="text-align: end">Design</div></span>
+                <span style="--index: 1;">Multimedia <br> <div style="text-align: end">Design</div></span>
+                <span style="--index: 2;">Multimedia <br> <div style="text-align: end">Design</div></span> 
+            </h1>   
+
+            <h2>Student</h2>
+
+            <div class="mainText">
+                <p>
+                    Fuelled by curiosity, desire to learn<br>
+                    and unimaginable amount of cake.
+                </p>
+                <a href="mailto:monika.sz320@gmail.com?subject=Portfolio" class="btnA"><button type="button" class="email"><div class="btnContact">Wanna say hi? Send me an email!</div></button></a>
+            </div>
+
+        </section>
+        
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratinha - Multimedia Designer</title>
+
+    <script src="assets/js/script.js" defer> </script>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body class="noScroll">
+
+    <main>
+
+        <!-- code referenced from: "https://youtu.be/z1ES-oz4SbM" -->
+        <div class="svgStatic">
+            
+            <svg>
+                <filter id="static">
+                    <feTurbulence id="turbulence">
+                        <animate attributeName="baseFrequency" dur="50s" values="0.9 0.9; 0.8 0.8; 0.9 0.9;" repeatCount="indefinite"></animate>
+                    </feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" scale="60" ></feDisplacementMap>
+                </filter>
+            </svg>
+
+        </div> 
+
+
+        <header>
+
+            <nav>
+
+                <a href="index.html" class="navLogo"><p>R.</p></a> 
+                <div></div>
+
+                <a href="index.html" class="navLink"><p><div class="navNumbers">01. </div>Home</p></a>
+                <a href="projects.html" class="navLink"><p><div class="navNumbers">02. </div>Projects</p></a>
+                <a href="about.html" class="navLink"><p><div class="navNumbers">03. </div>About me</p></a>
+                    
+            </nav>
+
+        </header>
+
+        <section >
+            <div class="projects">
+                <div class="projectsHeading">
+                    <h3>My projects</h3>
+                    <h3 class="h3End">3</h3>
+                </div> 
+
+                <a href="SvgLoadingAnimation.html">
+                    <div id="listProjects1">
+                        <h4 class="h4Spacing">
+                            Loading Animation
+                            <div class="status">NEW</div>
+                        </h4>
+                        
+                        <p>Animation</p>
+                    </div>
+                </a>
+
+                <a href="ResponsiveWebsite.html">
+                    <div id="listProjects2">
+                        <h4 class="h4Spacing">
+                            Responsive Website
+                        </h4>
+                        <p>Front-end</p>
+                    </div>
+                </a>
+
+                <a href="GjolKroWebsite.html">
+                    <div id="listProjects3">
+                        <h4 class="h4Spacing">
+                            Gjøl Kro Website
+                        </h4>
+                        <p>Web Development</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>

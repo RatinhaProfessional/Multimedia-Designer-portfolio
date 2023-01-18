@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratinha - Multimedia Designer</title>
+
+    <script src="assets/js/script.js" defer> </script>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body class="noScroll">
+
+    <main>
+
+        <!-- code referenced from: "https://youtu.be/z1ES-oz4SbM" -->
+        <div class="svgStatic">
+            
+            <svg>
+                <filter id="static">
+                    <feTurbulence id="turbulence">
+                        <animate attributeName="baseFrequency" dur="50s" values="0.9 0.9; 0.8 0.8; 0.9 0.9;" repeatCount="indefinite"></animate>
+                    </feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" scale="60" ></feDisplacementMap>
+                </filter>
+            </svg>
+
+        </div> 
+
+
+        <header>
+
+            <nav>
+
+                <a href="index.html" class="navLogo"><p>R.</p></a> 
+                <div></div>
+
+                <a href="index.html" class="navLink"><p><div class="navNumbers">01. </div>Home</p></a>
+                <a href="projects.html" class="navLink"><p><div class="navNumbers">02. </div>Projects</p></a>
+                <a href="about.html" class="navLink"><p><div class="navNumbers">03. </div>About me</p></a>
+                    
+            </nav>
+
+        </header>
+   
+        <section>
+            <div class="aboutText">
+                <span style="grid-area: heading1;"><div class="underline"><h4 class="h4-orange h4Padding">Front-end tools</h4></div></span>
+                
+                <span style="grid-area: heading2;"><div class="underline"><h4 class="h4-orange">UX/UI Skills</h4></div></span>
+                        
+                <span style="grid-area: heading3;"><div class="underline"><h4 class="h4-orange">Interests</h4></div></span>
+                    
+                <p style="grid-area: value1;">
+                    HTML5,<br> 
+                    Node.js,<br>
+                    JavaScript,<br> 
+                    CSS, Vue.js. 
+                    
+                </p>
+                <p style="grid-area: value2;">
+                    Research,<br> 
+                    Prototyping,<br>
+                    Data Analysis,<br> 
+                    Project planning.
+                </p>
+
+                <p style="grid-area: value3;">
+                    RPG's,<br> 
+                    Baking,<br>
+                    Reading,<br>
+                    Sketching.
+                    
+                </p>
+                
+                <span style="grid-area: heading4;"><div class="underline"><h4 class="h4-orange">Name</h4></div></span>
+        
+                <span style="grid-area: heading5;"><div class="underline"><h4 class="h4-orange">Nickname</h4></div></span>
+                        
+                <span style="grid-area: heading6;"><div class="underline"><h4 class="h4-orange">About me</h4></div></span>
+                    
+                <p style="grid-area: text1;">
+                    Monika
+                    
+                </p>
+                <p style="grid-area: text2;">
+                    <span class="nickName" id="nickName"> Ratinha</span>
+                    <span class="explaination" id="hidden">
+                            (Portuguese translation of my surname<br>
+                            and nickname, that I use for years now).
+                    </span>
+                </p>
+
+                <p style="grid-area: text3;">
+                    I'm a Multimedia Design student,<br> 
+                    that constantly seeks for new challenges<br> 
+                    and likes to experiment with diversity of web design.<br> 
+                </p>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
